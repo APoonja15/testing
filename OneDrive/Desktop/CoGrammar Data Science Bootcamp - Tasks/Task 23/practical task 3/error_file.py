@@ -1,13 +1,8 @@
-a = 5
-b = 6
-c = 7
+import math
 
-a_squared = a*a
+number = int(input("please enter base number: "))
+power = int(input("please enter power number: "))
 
-b_cubed = b*b*b
+result = math.pow(number, power)
 
-c_power_4 = c*c*c*c
-
-print(a_squared)
-print(b_cubed)
-print(c_power_4)
+print(result)
